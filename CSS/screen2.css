@@ -1,0 +1,445 @@
+.background{
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/background.PNG');
+    height: 100%;
+    margin: 0;
+    background-position: 0px 0px;
+    transform: scale(1.1);
+}
+body{
+	margin: 0;
+}
+.box{
+	border: 1px solid #F5A9F2;
+	display: flex;
+    position: relative;
+    margin: 30px auto 0px;
+    width: 960px;
+    min-height: 600px;
+    border-radius: 35px;
+    background: #FFFF;
+}
+.head{
+	border-radius: 35px 35px 0px 0px;
+	background: #E0F8F7;
+	position: absolute;
+	display: flex;
+	width: 960px;
+	height: 48px;
+}
+.return{
+	display: flex;
+	width: 150px;
+	height: 48px;
+}
+.back {
+	width: 100px;
+    height: 48px;
+    font-size: 29px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.back:hover{
+	color: red;
+}
+.balls {
+    width: 840px;
+    height: 48px;
+}
+.ball {
+    background: #00FFFF;
+    float: left;
+    border-radius: 15px;
+    width: 500px;
+    height: 30px;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+.add-ball5{
+    animation-name: ball5-go;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+#ball4{
+    position: relative;
+}
+#ball3{
+    position: relative;
+}
+#ball2{
+    position: relative;
+}
+#ball1{
+    position: relative;
+}
+#ball5{
+    position: relative;
+}
+@-webkit-keyframes ball5-go{
+    from {
+        left: 0px;
+    }
+    to {
+        left: 350px;
+    }
+}
+@keyframes ball5-go {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 350px;
+    }
+}
+.icon-ball {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.bodys{
+    margin-top: 48px;
+    width: 960px;
+    height: 100vh;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+.check-red{
+    border: 1px solid red;
+}
+.check-return{
+    border: 1px solid black;
+}
+input, 
+input:active, 
+input:focus {  
+    outline: 0;  
+    outline-style: none;  
+    outline-width: 0; 
+} 
+.title{
+    width: 960px;
+    height: 10%;
+    text-align: center;
+}
+.fraction1{
+    top: 100px;
+    width: 960px;
+    height: 150px;
+    position: absolute;
+}
+.fraction2{
+    top: 400px;
+    width: 960px;
+    height: 150px;
+    position: absolute;
+}
+.axis{
+    top: 250px;
+    width: 960px;
+    height: 150px;
+    position: absolute;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-1.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#frac1-1{
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac1.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+}
+.frac1-2{
+    border-radius: 50%;
+    bottom: 0;
+    right: 260px;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border: 1px solid #5858FA;
+}
+.frac2-1{
+    bottom: 0;
+    right: 0;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 355px;
+    border: 1px solid #BF00FF;
+}
+.frac2-2{
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    right: 0;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac2.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+}
+/* man choi 2 */
+.bodys1{
+    background-color: white;
+    display: none;
+    margin-top: 48px;
+    width: 960px;
+    height: 100vh;
+    position: absolute;
+}
+#frac1-1a{
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac3.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+}
+.frac1-2a{
+    border-radius: 50%;
+    bottom: 0;
+    left: 205px;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border: 1px solid #5858FA;
+}
+.frac2-1a{
+    right: 195px;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    border: 1px solid #BF00FF;
+}
+.frac2-2a{
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    right: 0;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac4.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+}
+.axis1{
+    top: 250px;
+    width: 960px;
+    height: 150px;
+    position: absolute;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-1-1.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.remove{
+    display: none;
+}
+/* mh3 */
+.bodys2{
+    background-color: white;
+    display: none;
+    margin-top: 48px;
+    width: 960px;
+    height: 100vh;
+    position: absolute;
+}
+#frac1-1b{
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac5.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+}
+.frac1-2b{
+    border-radius: 50%;
+    bottom: 0;
+    left: 505px;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border: 1px solid #5858FA;
+}
+.frac2-1b{
+    right: 195px;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 285px;
+    border: 1px solid #BF00FF;
+}
+.frac2-2b{
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    right: 0;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac6.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+}
+.axis2{
+    top: 250px;
+    width: 960px;
+    height: 150px;
+    position: absolute;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-3.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bodys3{
+    background-color: white;
+    display: none;
+    margin-top: 48px;
+    width: 960px;
+    height: 100vh;
+    position: absolute;
+}
+#frac1-1c{
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac7.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+}
+.frac1-2c{
+    border-radius: 50%;
+    bottom: 0;
+    left: 735px;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border: 1px solid #5858FA;
+}
+.frac2-1c{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 505px;
+    border: 1px solid #BF00FF;
+}
+.frac2-2c{
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    right: 0;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac8.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+}
+.axis3{
+    top: 250px;
+    width: 960px;
+    height: 150px;
+    position: absolute;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-3-1.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bodys4{
+    background-color: white;
+    display: none;
+    margin-top: 48px;
+    width: 960px;
+    height: 100vh;
+    position: absolute;
+}
+#frac1-1d{
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac9.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+}
+.frac1-2d{
+    border-radius: 50%;
+    bottom: 0;
+    left: 485px;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border: 1px solid #5858FA;
+}
+.frac2-1d{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 280px;
+    border: 1px solid #BF00FF;
+}
+.frac2-2d{
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    right: 0;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac10.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+}
+.axis4{
+    top: 250px;
+    width: 960px;
+    height: 150px;
+    position: absolute;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-3-2.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.end-game{
+    display: none;
+    border: 1px solid #F5A9F2;
+    position: absolute;
+    margin: 0px auto 0px;
+    top: 0;
+    left: 187px;
+    width: 960px;
+    min-height: 600px;
+    border-radius: 35px;
+    background: white;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/endgame.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.back-game{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    bottom: 50px;
+    left: 380px;
+    background-color: #2E9AFE;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+}

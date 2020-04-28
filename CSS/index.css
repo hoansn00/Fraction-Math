@@ -1,0 +1,131 @@
+.background{
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/background.PNG');
+    height: 100%;
+    margin: 0;
+    background-position: 0px 0px;
+    transform: scale(1.1); 
+}
+.body{
+	margin: 0;
+}
+.box{
+    border: 1px solid #F5A9F2;
+    display: flex;
+    position: relative;
+    margin: 30px auto 0px;
+    width: 960px;
+    min-height: 600px;
+    border-radius: 35px;
+    background: #FFFF;
+}
+.title{
+    position: absolute;
+    width: 960px;
+    height: 30%;
+    font-size: 50px;
+    text-align: center;
+}
+.choose{
+    font-size: 20px;
+    color: #00FF40;
+}
+.games{
+    display: flex;
+    position: absolute;
+    width: 960px;
+    height: 70%;
+    margin-top: 20%;
+}
+.game1{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    margin-left: 70px;
+}
+.icon-game1{
+    width: 200px;
+    height: 200px;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/game1.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.click-game1{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+.click-game1:hover{
+    color: red;
+}
+.game2{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+}
+.icon-game2{
+    width: 200px;
+    height: 200px;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/game2.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.click-game2{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+.click-game2:hover{
+    color: red;
+}
+.game3{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+}
+.icon-game3{
+    width: 200px;
+    height: 200px;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/game3.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.click-game3{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+.click-game3:hover{
+    color: red;
+}
+.game4{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+}
+.icon-game4{
+    width: 200px;
+    height: 200px;
+    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/game4.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.click-game4{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+.game4:hover{
+
+}
+.click-game4:hover{
+    color: red;
+}
+a{
+    color: #08088A;
+    text-decoration: none;
+}

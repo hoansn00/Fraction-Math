@@ -9,22 +9,22 @@ body{
 	margin: 0;
 }
 .box{
-	border: 1px solid #F5A9F2;
+	border: 1px solid rgb(180, 180, 180);
 	display: flex;
     position: relative;
     margin: 30px auto 0px;
     width: 960px;
     min-height: 600px;
-    border-radius: 35px;
+    border-radius: 15px;
     background: #FFFF;
 }
 .head{
 	border-radius: 35px 35px 0px 0px;
-	background: #E0F8F7;
 	position: absolute;
 	display: flex;
 	width: 960px;
 	height: 48px;
+	border-bottom: 1px solid rgb(180, 180, 180);
 }
 .return{
 	display: flex;
@@ -35,24 +35,26 @@ body{
 	width: 100px;
     height: 48px;
     font-size: 29px;
-    margin-left: 0px;
-    margin-top: 5px;
+    margin-left: 10px;
+	margin-top: 5px;
+	color: rgb(0, 189, 202)
 }
 .back:hover{
-	color: red;
+	color: rgb(0, 137, 172);
 }
 .balls {
 	width: 840px;
 	height: 48px;
 }
 .ball {
-	background: #00FFFF;
+	background: rgb(238, 238, 238);
 	float: left;
 	border-radius: 15px;
 	width: 500px;
     height: 30px;
     margin-left: 15%;
-    margin-top: 5px;
+	margin-top: 7px;
+	border: 1px solid rgb(184, 184, 184);
 }
 .add-ball5{
 	animation-name: ball5-go;

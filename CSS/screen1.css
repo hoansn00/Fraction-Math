@@ -1,16 +1,18 @@
-.background{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/background.PNG');
+.background {
+    background-image: url('/image/background.PNG');
     height: 100%;
     margin: 0;
     background-position: 0px 0px;
     transform: scale(1.1);
 }
-body{
-	margin: 0;
+
+body {
+    margin: 0;
 }
-.box{
-	border: 1px solid #F5A9F2;
-	display: flex;
+
+.box {
+    border: 1px solid #F5A9F2;
+    display: flex;
     position: relative;
     margin: 30px auto 0px;
     width: 960px;
@@ -18,358 +20,406 @@ body{
     border-radius: 35px;
     background: #FFFF;
 }
-.head{
-	border-radius: 35px 35px 0px 0px;
-	background: #E0F8F7;
-	position: absolute;
-	display: flex;
-	width: 960px;
-	height: 48px;
+
+.head {
+    border-radius: 35px 35px 0px 0px;
+    background: #E0F8F7;
+    position: absolute;
+    display: flex;
+    width: 960px;
+    height: 48px;
 }
-.return{
-	display: flex;
-	width: 150px;
-	height: 48px;
+
+.return {
+    display: flex;
+    width: 150px;
+    height: 48px;
 }
+
 .back {
-	width: 100px;
+    width: 100px;
     height: 48px;
     font-size: 29px;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 5px;
 }
-.back:hover{
-	color: red;
+
+.back:hover {
+    color: red;
 }
+
 .balls {
-	width: 840px;
-	height: 48px;
+    width: 840px;
+    height: 48px;
 }
+
 .ball {
-	background: #00FFFF;
-	float: left;
-	border-radius: 15px;
-	width: 500px;
+    background: #00FFFF;
+    float: left;
+    border-radius: 15px;
+    width: 500px;
     height: 30px;
     margin-left: 15%;
     margin-top: 5px;
 }
-.add-ball5{
-	animation-name: ball5-go;
-	animation-duration: 0.5s;
-	animation-fill-mode: both;
+
+.add-ball5 {
+    animation-name: ball5-go;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
 }
-#ball5{
-	position: relative;
+
+#ball5 {
+    position: relative;
 }
-@-webkit-keyframes ball5-go{
-	from {
-		left: 0px;
-	}
-	to {
-		left: 350px;
-	}
+
+@-webkit-keyframes ball5-go {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 350px;
+    }
 }
+
 @keyframes ball5-go {
-	from {
-		left: 0px;
-	}
-	to {
-		left: 350px;
-	}
+    from {
+        left: 0px;
+    }
+    to {
+        left: 350px;
+    }
 }
+
 .icon-ball {
-	float: left;
-	width: 30px;
-	height: 30px;
+    float: left;
+    width: 30px;
+    height: 30px;
 }
-.bodys{
-	margin-top: 48px;
-	width: 960px;
-	height: 100vh;
-	position: absolute;
+
+.bodys {
+    margin-top: 48px;
+    width: 960px;
+    height: 100vh;
+    position: absolute;
 }
-.title{
-	width: 960px;
-	height: 10%;
-	text-align: center;
+
+.title {
+    width: 960px;
+    height: 10%;
+    text-align: center;
 }
-.circle{
-	width: 960px;
-	height: 30%;
+
+.circle {
+    width: 960px;
+    height: 30%;
 }
-.fraction{
-	width: 960px;
-	height: 30%;
-	position: relative;
+
+.fraction {
+    width: 960px;
+    height: 30%;
+    position: relative;
 }
-.circle1{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle1.PNG');
-	margin-left: 250px;
-	margin-top: 20px;
-	background-repeat: no-repeat;
+
+.circle1 {
+    background-image: url('/image/cricle1.PNG');
+    margin-left: 250px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
 }
-.circle2{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle2.PNG');
-	margin-left: 200px;
-	margin-top: 20px;
-	background-repeat: no-repeat;
+
+.circle2 {
+    background-image: url('/image/cricle2.PNG');
+    margin-left: 200px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
 }
-.fraction1{
-	position: absolute;
-	width: 130px;
-	height: 130px;
-	margin-left: 250px;
-	margin-top: 20px;
+
+.fraction1 {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-left: 250px;
+    margin-top: 20px;
 }
-.fraction2{
-	position: absolute;
-	width: 130px;
-	height: 130px;
-	margin-left: 586px;
-	margin-top: 20px;
+
+.fraction2 {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-left: 586px;
+    margin-top: 20px;
 }
-.compare{
-	position: absolute;
-	border: 1px solid #0000FF;
-	width: 50px;
-	height: 50px;
-	border-radius: 100%;
-	margin-top: 55px;
+
+.compare {
+    position: absolute;
+    border: 1px solid #0000FF;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 55px;
     margin-left: 455px;
     cursor: pointer;
     text-align: center;
     font-size: 50px;
-
 }
 
-.numerator1{
-	text-align: center;
+.numerator1 {
+    text-align: center;
     margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
-	font-size: 50px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 50px;
 }
 
-.divide1{
-	margin: 5px 40px;
-	width: 50px;
-	height: 0px;
-	border: 2px solid black;
+.divide1 {
+    margin: 5px 40px;
+    width: 50px;
+    height: 0px;
+    border: 2px solid black;
 }
-.denominator1{
-	font-size: 50px;
-	text-align: center;
+
+.denominator1 {
+    font-size: 50px;
+    text-align: center;
     margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
 }
-.numerator2{
-	font-size: 50px;
-	text-align: center;
+
+.numerator2 {
+    font-size: 50px;
+    text-align: center;
     margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
 }
-.divide2{
-	margin: 5px 40px;
-	width: 50px;
-	height: 0px;
-	border: 2px solid black;
+
+.divide2 {
+    margin: 5px 40px;
+    width: 50px;
+    height: 0px;
+    border: 2px solid black;
 }
-.denominator2{
-	font-size: 50px;
-	text-align: center;
+
+.denominator2 {
+    font-size: 50px;
+    text-align: center;
     margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
 }
-a{
-	text-decoration: none;
+
+a {
+    text-decoration: none;
 }
-.check-red{
-	border: 1px solid red;
+
+.check-red {
+    border: 1px solid red;
 }
-.check-return{
-	border: 1px solid black;
+
+.check-return {
+    border: 1px solid black;
 }
-input, 
-input:active, 
-input:focus {  
-    outline: 0;  
-    outline-style: none;  
-    outline-width: 0; 
-} 
+
+input,
+input:active,
+input:focus {
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+}
+
+
 /* màn chơi thứ 2 */
+
 .bodys-one {
-	margin-top: 48px;
-	width: 960px;
-	height: 100vh;
-	position: absolute;
-	display: none;
-}
-.circle1-one{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle3.PNG');
-	margin-left: 250px;
-	margin-top: 20px;
-	background-repeat: no-repeat;
-}
-.circle2-one{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle4.PNG');
-	margin-left: 200px;
-	margin-top: 20px;
-	background-repeat: no-repeat;
-}
-.numerator1-one{
-	text-align: center;
-    margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
-	font-size: 50px;
+    margin-top: 48px;
+    width: 960px;
+    height: 100vh;
+    position: absolute;
+    display: none;
 }
 
-.denominator1-one{
-	font-size: 50px;
-	text-align: center;
-    margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
-}
-.numerator2-one{
-	font-size: 50px;
-	text-align: center;
-    margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
+.circle1-one {
+    background-image: url('/cricle3.PNG');
+    margin-left: 250px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
 }
 
-.denominator2-one{
-	font-size: 50px;
-	text-align: center;
-    margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
+.circle2-one {
+    background-image: url('/cricle4.PNG');
+    margin-left: 200px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
 }
-.compare-one{
-	position: absolute;
-	border: 1px solid #0000FF;
-	width: 50px;
-	height: 50px;
-	border-radius: 100%;
-	margin-top: 55px;
+
+.numerator1-one {
+    text-align: center;
+    margin: 5px 40px 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 50px;
+}
+
+.denominator1-one {
+    font-size: 50px;
+    text-align: center;
+    margin: 5px 40px 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.numerator2-one {
+    font-size: 50px;
+    text-align: center;
+    margin: 5px 40px 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.denominator2-one {
+    font-size: 50px;
+    text-align: center;
+    margin: 5px 40px 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.compare-one {
+    position: absolute;
+    border: 1px solid #0000FF;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 55px;
     margin-left: 455px;
     cursor: pointer;
     text-align: center;
     font-size: 50px;
+}
 
+.add-ball4 {
+    animation-name: ball5-go;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
 }
-.add-ball4{
-	animation-name: ball5-go;
-	animation-duration: 0.5s;
-	animation-fill-mode: both;
+
+#ball4 {
+    position: relative;
 }
-#ball4{
-	position: relative;
-}
+
+
 /*man choi thu 3 */
+
 .bodys-two {
-	margin-top: 48px;
-	width: 960px;
-	height: 100vh;
-	position: absolute;
-	display: none;
-}
-.circle1-two{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle5.PNG');
-	margin-left: 250px;
-	margin-top: 20px;
-	background-repeat: no-repeat;
-}
-.circle2-two{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle6.PNG');
-	margin-left: 200px;
-	margin-top: 20px;
-	background-repeat: no-repeat;
-}
-.numerator1-two{
-	text-align: center;
-    margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
-	font-size: 50px;
+    margin-top: 48px;
+    width: 960px;
+    height: 100vh;
+    position: absolute;
+    display: none;
 }
 
-.denominator1-two{
-	font-size: 50px;
-	text-align: center;
-    margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
-}
-.numerator2-two{
-	font-size: 50px;
-	text-align: center;
-    margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
+.circle1-two {
+    background-image: url('/image/cricle5.PNG');
+    margin-left: 250px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
 }
 
-.denominator2-two{
-	font-size: 50px;
-	text-align: center;
-    margin: 5px 40px 5px;
-	border: 2px solid black;
-	width: 50px;
-	height: 50px;
-	border-radius: 5px;
+.circle2-two {
+    background-image: url('/image/cricle6.PNG');
+    margin-left: 200px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
 }
-.compare-two{
-	position: absolute;
-	border: 1px solid #0000FF;
-	width: 50px;
-	height: 50px;
-	border-radius: 100%;
-	margin-top: 55px;
+
+.numerator1-two {
+    text-align: center;
+    margin: 5px 40px 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 50px;
+}
+
+.denominator1-two {
+    font-size: 50px;
+    text-align: center;
+    margin: 5px 40px 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.numerator2-two {
+    font-size: 50px;
+    text-align: center;
+    margin: 5px 40px 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.denominator2-two {
+    font-size: 50px;
+    text-align: center;
+    margin: 5px 40px 5px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.compare-two {
+    position: absolute;
+    border: 1px solid #0000FF;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 55px;
     margin-left: 455px;
     cursor: pointer;
     text-align: center;
     font-size: 50px;
+}
 
+.add-ball3 {
+    animation-name: ball5-go;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
 }
-.add-ball3{
-	animation-name: ball5-go;
-	animation-duration: 0.5s;
-	animation-fill-mode: both;
+
+#ball3 {
+    position: relative;
 }
-#ball3{
-	position: relative;
-}
+
+
 /* man hinh endgame */
-.end-game{
-	display: none;
-	border: 1px solid #F5A9F2;
+
+.end-game {
+    display: none;
+    border: 1px solid #F5A9F2;
     position: absolute;
     margin: 0px auto 0px;
     top: 0;
@@ -378,12 +428,13 @@ input:focus {
     min-height: 600px;
     border-radius: 35px;
     background: white;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/endgame.png');
+    background-image: url('/image/endgame.png');
     background-repeat: no-repeat;
     background-position: center;
 }
-.back-game{
-	position: absolute;
+
+.back-game {
+    position: absolute;
     width: 200px;
     height: 50px;
     bottom: 50px;
@@ -393,9 +444,11 @@ input:focus {
     border-radius: 5px;
     font-size: 30px;
 }
-.add{
-	color: red;
+
+.add {
+    color: red;
 }
-.hide1{
-	display: none;
+
+.hide1 {
+    display: none;
 }

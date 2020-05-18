@@ -1,16 +1,18 @@
-.background{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/background.PNG');
+.background {
+    background-image: url('/image/background.PNG');
     height: 100%;
     margin: 0;
     background-position: 0px 0px;
     transform: scale(1.1);
 }
-body{
-	margin: 0;
+
+body {
+    margin: 0;
 }
-.box{
-	border: 1px solid #F5A9F2;
-	display: flex;
+
+.box {
+    border: 1px solid #F5A9F2;
+    display: flex;
     position: relative;
     margin: 30px auto 0px;
     width: 960px;
@@ -18,33 +20,39 @@ body{
     border-radius: 35px;
     background: #FFFF;
 }
-.head{
-	border-radius: 35px 35px 0px 0px;
-	background: #E0F8F7;
-	position: absolute;
-	display: flex;
-	width: 960px;
-	height: 48px;
+
+.head {
+    border-radius: 35px 35px 0px 0px;
+    background: #E0F8F7;
+    position: absolute;
+    display: flex;
+    width: 960px;
+    height: 48px;
 }
-.return{
-	display: flex;
-	width: 150px;
-	height: 48px;
+
+.return {
+    display: flex;
+    width: 150px;
+    height: 48px;
 }
+
 .back {
-	width: 100px;
+    width: 100px;
     height: 48px;
     font-size: 29px;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 5px;
 }
-.back:hover{
-	color: red;
+
+.back:hover {
+    color: red;
 }
+
 .balls {
     width: 840px;
     height: 48px;
 }
+
 .ball {
     background: #00FFFF;
     float: left;
@@ -54,15 +62,18 @@ body{
     margin-left: 15%;
     margin-top: 5px;
 }
-.add-ball5{
+
+.add-ball5 {
     animation-name: ball5-go;
     animation-duration: 0.5s;
     animation-fill-mode: both;
 }
-#ball5{
+
+#ball5 {
     position: relative;
 }
-@-webkit-keyframes ball5-go{
+
+@-webkit-keyframes ball5-go {
     from {
         left: 0px;
     }
@@ -70,6 +81,7 @@ body{
         left: 350px;
     }
 }
+
 @keyframes ball5-go {
     from {
         left: 0px;
@@ -78,30 +90,36 @@ body{
         left: 350px;
     }
 }
+
 .icon-ball {
     float: left;
     width: 30px;
     height: 30px;
 }
-.bodys{
+
+.bodys {
     margin-top: 48px;
     width: 960px;
     height: 100vh;
     position: absolute;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.check-red{
+
+.check-red {
     border: 1px solid red;
 }
-.check-return{
+
+.check-return {
     border: 1px solid black;
 }
-input, 
-input:active, 
-input:focus {  
-    outline: 0;  
-    outline-style: none;  
-    outline-width: 0; 
-} 
+
+input,
+input:active,
+input:focus {
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+}

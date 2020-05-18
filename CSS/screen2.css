@@ -1,16 +1,18 @@
-.background{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/background.PNG');
+.background {
+    background-image: url('/image/background.PNG');
     height: 100%;
     margin: 0;
     background-position: 0px 0px;
     transform: scale(1.1);
 }
-body{
-	margin: 0;
+
+body {
+    margin: 0;
 }
-.box{
-	border: 1px solid #F5A9F2;
-	display: flex;
+
+.box {
+    border: 1px solid #F5A9F2;
+    display: flex;
     position: relative;
     margin: 30px auto 0px;
     width: 960px;
@@ -18,33 +20,39 @@ body{
     border-radius: 35px;
     background: #FFFF;
 }
-.head{
-	border-radius: 35px 35px 0px 0px;
-	background: #E0F8F7;
-	position: absolute;
-	display: flex;
-	width: 960px;
-	height: 48px;
+
+.head {
+    border-radius: 35px 35px 0px 0px;
+    background: #E0F8F7;
+    position: absolute;
+    display: flex;
+    width: 960px;
+    height: 48px;
 }
-.return{
-	display: flex;
-	width: 150px;
-	height: 48px;
+
+.return {
+    display: flex;
+    width: 150px;
+    height: 48px;
 }
+
 .back {
-	width: 100px;
+    width: 100px;
     height: 48px;
     font-size: 29px;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 5px;
 }
-.back:hover{
-	color: red;
+
+.back:hover {
+    color: red;
 }
+
 .balls {
     width: 840px;
     height: 48px;
 }
+
 .ball {
     background: #00FFFF;
     float: left;
@@ -54,27 +62,34 @@ body{
     margin-left: 15%;
     margin-top: 5px;
 }
-.add-ball5{
+
+.add-ball5 {
     animation-name: ball5-go;
     animation-duration: 0.5s;
     animation-fill-mode: both;
 }
-#ball4{
+
+#ball4 {
     position: relative;
 }
-#ball3{
+
+#ball3 {
     position: relative;
 }
-#ball2{
+
+#ball2 {
     position: relative;
 }
-#ball1{
+
+#ball1 {
     position: relative;
 }
-#ball5{
+
+#ball5 {
     position: relative;
 }
-@-webkit-keyframes ball5-go{
+
+@-webkit-keyframes ball5-go {
     from {
         left: 0px;
     }
@@ -82,6 +97,7 @@ body{
         left: 350px;
     }
 }
+
 @keyframes ball5-go {
     from {
         left: 0px;
@@ -90,61 +106,72 @@ body{
         left: 350px;
     }
 }
+
 .icon-ball {
     float: left;
     width: 30px;
     height: 30px;
 }
-.bodys{
+
+.bodys {
     margin-top: 48px;
     width: 960px;
     height: 100vh;
     position: absolute;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.check-red{
+
+.check-red {
     border: 1px solid red;
 }
-.check-return{
+
+.check-return {
     border: 1px solid black;
 }
-input, 
-input:active, 
-input:focus {  
-    outline: 0;  
-    outline-style: none;  
-    outline-width: 0; 
-} 
-.title{
+
+input,
+input:active,
+input:focus {
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+}
+
+.title {
     width: 960px;
     height: 10%;
     text-align: center;
 }
-.fraction1{
+
+.fraction1 {
     top: 100px;
     width: 960px;
     height: 150px;
     position: absolute;
 }
-.fraction2{
+
+.fraction2 {
     top: 400px;
     width: 960px;
     height: 150px;
     position: absolute;
 }
-.axis{
+
+.axis {
     top: 250px;
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-1.PNG');
+    background-image: url('/image/0-1.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
-#frac1-1{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac1.PNG');
+
+#frac1-1 {
+    background-image: url('/image/frac1.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -153,7 +180,8 @@ input:focus {
     border-radius: 50%;
     bottom: 0;
 }
-.frac1-2{
+
+.frac1-2 {
     border-radius: 50%;
     bottom: 0;
     right: 260px;
@@ -162,7 +190,8 @@ input:focus {
     position: absolute;
     border: 1px solid #5858FA;
 }
-.frac2-1{
+
+.frac2-1 {
     bottom: 0;
     right: 0;
     width: 77px;
@@ -173,19 +202,23 @@ input:focus {
     left: 355px;
     border: 1px solid #BF00FF;
 }
-.frac2-2{
+
+.frac2-2 {
     border-radius: 50%;
     width: 77px;
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac2.PNG');
+    background-image: url('/image/frac2.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
 }
+
+
 /* man choi 2 */
-.bodys1{
+
+.bodys1 {
     background-color: white;
     display: none;
     margin-top: 48px;
@@ -193,8 +226,9 @@ input:focus {
     height: 100vh;
     position: absolute;
 }
-#frac1-1a{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac3.PNG');
+
+#frac1-1a {
+    background-image: url('/image/frac3.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -203,7 +237,8 @@ input:focus {
     border-radius: 50%;
     bottom: 0;
 }
-.frac1-2a{
+
+.frac1-2a {
     border-radius: 50%;
     bottom: 0;
     left: 205px;
@@ -212,7 +247,8 @@ input:focus {
     position: absolute;
     border: 1px solid #5858FA;
 }
-.frac2-1a{
+
+.frac2-1a {
     right: 195px;
     width: 77px;
     height: 77px;
@@ -221,31 +257,37 @@ input:focus {
     top: 0;
     border: 1px solid #BF00FF;
 }
-.frac2-2a{
+
+.frac2-2a {
     border-radius: 50%;
     width: 77px;
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac4.PNG');
+    background-image: url('/image/frac4.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
 }
-.axis1{
+
+.axis1 {
     top: 250px;
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-1-1.PNG');
+    background-image: url('/image/0-1-1.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
-.remove{
+
+.remove {
     display: none;
 }
+
+
 /* mh3 */
-.bodys2{
+
+.bodys2 {
     background-color: white;
     display: none;
     margin-top: 48px;
@@ -253,8 +295,9 @@ input:focus {
     height: 100vh;
     position: absolute;
 }
-#frac1-1b{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac5.PNG');
+
+#frac1-1b {
+    background-image: url('/image/frac5.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -263,7 +306,8 @@ input:focus {
     border-radius: 50%;
     bottom: 0;
 }
-.frac1-2b{
+
+.frac1-2b {
     border-radius: 50%;
     bottom: 0;
     left: 505px;
@@ -272,7 +316,8 @@ input:focus {
     position: absolute;
     border: 1px solid #5858FA;
 }
-.frac2-1b{
+
+.frac2-1b {
     right: 195px;
     width: 77px;
     height: 77px;
@@ -282,28 +327,30 @@ input:focus {
     left: 285px;
     border: 1px solid #BF00FF;
 }
-.frac2-2b{
+
+.frac2-2b {
     border-radius: 50%;
     width: 77px;
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac6.PNG');
+    background-image: url('/image/frac6.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
 }
-.axis2{
+
+.axis2 {
     top: 250px;
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-3.PNG');
+    background-image: url('/image/0-3.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.bodys3{
+.bodys3 {
     background-color: white;
     display: none;
     margin-top: 48px;
@@ -311,8 +358,9 @@ input:focus {
     height: 100vh;
     position: absolute;
 }
-#frac1-1c{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac7.PNG');
+
+#frac1-1c {
+    background-image: url('/image/frac7.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -321,7 +369,8 @@ input:focus {
     border-radius: 50%;
     bottom: 0;
 }
-.frac1-2c{
+
+.frac1-2c {
     border-radius: 50%;
     bottom: 0;
     left: 735px;
@@ -330,7 +379,8 @@ input:focus {
     position: absolute;
     border: 1px solid #5858FA;
 }
-.frac2-1c{
+
+.frac2-1c {
     width: 77px;
     height: 77px;
     position: absolute;
@@ -339,28 +389,30 @@ input:focus {
     left: 505px;
     border: 1px solid #BF00FF;
 }
-.frac2-2c{
+
+.frac2-2c {
     border-radius: 50%;
     width: 77px;
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac8.PNG');
+    background-image: url('/image/frac8.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
 }
-.axis3{
+
+.axis3 {
     top: 250px;
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-3-1.PNG');
+    background-image: url('/image/0-3-1.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.bodys4{
+.bodys4 {
     background-color: white;
     display: none;
     margin-top: 48px;
@@ -368,8 +420,9 @@ input:focus {
     height: 100vh;
     position: absolute;
 }
-#frac1-1d{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac9.PNG');
+
+#frac1-1d {
+    background-image: url('/image/frac9.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -378,7 +431,8 @@ input:focus {
     border-radius: 50%;
     bottom: 0;
 }
-.frac1-2d{
+
+.frac1-2d {
     border-radius: 50%;
     bottom: 0;
     left: 485px;
@@ -387,7 +441,8 @@ input:focus {
     position: absolute;
     border: 1px solid #5858FA;
 }
-.frac2-1d{
+
+.frac2-1d {
     width: 77px;
     height: 77px;
     position: absolute;
@@ -396,28 +451,30 @@ input:focus {
     left: 280px;
     border: 1px solid #BF00FF;
 }
-.frac2-2d{
+
+.frac2-2d {
     border-radius: 50%;
     width: 77px;
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac10.PNG');
+    background-image: url('/image/frac10.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
 }
-.axis4{
+
+.axis4 {
     top: 250px;
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-3-2.PNG');
+    background-image: url('/image/0-3-2.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.end-game{
+.end-game {
     display: none;
     border: 1px solid #F5A9F2;
     position: absolute;
@@ -428,11 +485,12 @@ input:focus {
     min-height: 600px;
     border-radius: 35px;
     background: white;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/endgame.png');
+    background-image: url('/image/endgame.png');
     background-repeat: no-repeat;
     background-position: center;
 }
-.back-game{
+
+.back-game {
     position: absolute;
     width: 200px;
     height: 50px;

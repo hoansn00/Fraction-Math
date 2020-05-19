@@ -17,10 +17,24 @@
     left: 400px;
     top: 50px;
     bottom: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/start.png');
+    background-image: url('../image/start.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
+    cursor: pointer;
+}
+.start:hover{
+	width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    left: 400px;
+    top: 50px;
+    bottom: 0;
+    background-image: url('../image/start.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
     cursor: pointer;
 }
 

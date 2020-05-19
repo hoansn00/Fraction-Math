@@ -1,5 +1,5 @@
 .background{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/background.PNG');
+    background-image: url('../image/background.PNG');
     height: 100%;
     margin: 0;
     background-position: 0px 0px;

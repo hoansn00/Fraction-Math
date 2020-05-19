@@ -1,5 +1,5 @@
 .background{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/background.PNG');
+    background-image: url('../image/background.PNG');
     height: 100%;
     margin: 0;
     background-position: 0px 0px;
@@ -139,12 +139,12 @@ input:focus {
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-1.PNG');
+    background-image: url('../image/0-1.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
 #frac1-1{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac1.PNG');
+    background-image: url('../image/frac1.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -179,7 +179,7 @@ input:focus {
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac2.PNG');
+    background-image: url('../image/frac2.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
@@ -194,7 +194,7 @@ input:focus {
     position: absolute;
 }
 #frac1-1a{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac3.PNG');
+    background-image: url('../image/frac3.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -227,7 +227,7 @@ input:focus {
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac4.PNG');
+    background-image: url('../image/frac4.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
@@ -237,7 +237,7 @@ input:focus {
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-1-1.PNG');
+    background-image: url('../image/0-1-1.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -254,7 +254,7 @@ input:focus {
     position: absolute;
 }
 #frac1-1b{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac5.PNG');
+    background-image: url('../image/frac5.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -288,7 +288,7 @@ input:focus {
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac6.PNG');
+    background-image: url('../image/frac6.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
@@ -298,7 +298,7 @@ input:focus {
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-3.PNG');
+    background-image: url('../image/0-3.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -312,7 +312,7 @@ input:focus {
     position: absolute;
 }
 #frac1-1c{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac7.PNG');
+    background-image: url('../image/frac7.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -345,7 +345,7 @@ input:focus {
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac8.PNG');
+    background-image: url('../image/frac8.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
@@ -355,7 +355,7 @@ input:focus {
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-3-1.PNG');
+    background-image: url('../image/0-3-1.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -369,7 +369,7 @@ input:focus {
     position: absolute;
 }
 #frac1-1d{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac9.PNG');
+    background-image: url('../image/frac9.PNG');
     background-repeat: no-repeat;
     background-position: center;
     width: 77px;
@@ -402,7 +402,7 @@ input:focus {
     height: 77px;
     position: absolute;
     right: 0;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/frac10.PNG');
+    background-image: url('../image/frac10.PNG');
     background-position: center;
     background-repeat: no-repeat;
     top: 0;
@@ -412,7 +412,7 @@ input:focus {
     width: 960px;
     height: 150px;
     position: absolute;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/0-3-2.PNG');
+    background-image: url('../image/0-3-2.PNG');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -428,7 +428,7 @@ input:focus {
     min-height: 600px;
     border-radius: 35px;
     background: white;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/endgame.png');
+    background-image: url('../image/endgame.png');
     background-repeat: no-repeat;
     background-position: center;
 }

@@ -1,5 +1,5 @@
 .background{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/background.PNG');
+    background-image: url('../image/background.PNG');
     height: 100%;
     margin: 0;
     background-position: 0px 0px;
@@ -45,7 +45,7 @@
 .icon-game1{
     width: 200px;
     height: 200px;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/game1.PNG');
+    background-image: url('../image/game1.PNG');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -66,7 +66,7 @@
 .icon-game2{
     width: 200px;
     height: 200px;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/game2.PNG');
+    background-image: url('../image/game2.PNG');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -88,7 +88,7 @@
 .icon-game3{
     width: 200px;
     height: 200px;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/game3.PNG');
+    background-image: url('../image/game3.PNG');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -109,7 +109,7 @@
 .icon-game4{
     width: 200px;
     height: 200px;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/game4.PNG');
+    background-image: url('../image/game4.PNG');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;

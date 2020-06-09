@@ -1,5 +1,5 @@
 .background{
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/background.PNG');
+    background-image: url('../image/background.PNG');
     height: 100%;
     margin: 0;
     background-position: 0px 0px;
@@ -104,13 +104,13 @@ body{
 	position: relative;
 }
 .circle1{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle1.PNG');
+	background-image: url('../image/cricle1.PNG');
 	margin-left: 250px;
 	margin-top: 20px;
 	background-repeat: no-repeat;
 }
 .circle2{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle2.PNG');
+	background-image: url('../image/cricle2.PNG');
 	margin-left: 200px;
 	margin-top: 20px;
 	background-repeat: no-repeat;
@@ -217,13 +217,13 @@ input:focus {
 	display: none;
 }
 .circle1-one{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle3.PNG');
+	background-image: url('../image/cricle3.PNG');
 	margin-left: 250px;
 	margin-top: 20px;
 	background-repeat: no-repeat;
 }
 .circle2-one{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle4.PNG');
+	background-image: url('../image/cricle4.PNG');
 	margin-left: 200px;
 	margin-top: 20px;
 	background-repeat: no-repeat;
@@ -296,13 +296,13 @@ input:focus {
 	display: none;
 }
 .circle1-two{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle5.PNG');
+	background-image: url('../image/cricle5.PNG');
 	margin-left: 250px;
 	margin-top: 20px;
 	background-repeat: no-repeat;
 }
 .circle2-two{
-	background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/cricle6.PNG');
+	background-image: url('../image/cricle6.PNG');
 	margin-left: 200px;
 	margin-top: 20px;
 	background-repeat: no-repeat;
@@ -378,7 +378,7 @@ input:focus {
     min-height: 600px;
     border-radius: 35px;
     background: white;
-    background-image: url('file:C:/Users/Pham Van Hoan/Desktop/game/image/endgame.png');
+    background-image: url('../image/endgame.png');
     background-repeat: no-repeat;
     background-position: center;
 }
